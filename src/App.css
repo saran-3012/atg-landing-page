@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --light: rgb(255, 255, 255);
+    --dark: rgb(0, 0, 0);
+    --slate-1: rgba(242, 242, 242, 1);
+    --slate-2: rgba(224, 224, 224, 1);
+    --slate-3: rgba(138, 138, 138, 1);
+    --slate-4: rgba(237, 238, 240, 1);
+    --slate-5: rgba(169, 174, 184, 1);
+    --slate-6: rgba(82, 82, 82, 1);
+    --slate-7: rgba(184, 184, 184, 1);
+    --grey: rgba(73, 80, 87, 1);
+    --blue: rgb(47, 108, 229);
+    --green: rgba(0, 138, 69, 1);
+    --light-green: rgba(239, 255, 244, 1);
+    
+}
+
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img, svg{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 200ms;
+}
+
+.bg-grey{
+    background-color: var(--slate-4);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+    color: var(--light);
+}
+
+@media only screen and (min-width: 475px){
+
+}
+
+@media only screen and (min-width: 640px){
+    .btn{
+        padding: 0.625rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .btn{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1440px){
+
+}
+
+@media only screen and (min-width: 1536px){
+    
+}

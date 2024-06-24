@@ -1,0 +1,187 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* transform: translate(50%, 50%); */
+    z-index: 110;
+    width: 100svw;
+    height: 100svh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mauth_model{
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.mauth_headerbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mauth_headerbox > h2{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.mauth_headerbox > button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.terms_conditions{
+    text-align: center;
+    font-size: 0.75rem;
+    letter-spacing: 20%;
+}
+
+.pauth_model{
+    display: none;
+    width: 60%;
+    flex-direction: column;
+}
+
+.pauth_tagline{
+    position: relative;
+    background-color: var(--light-green);
+    color: var(--green);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.pauth_tagline > button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+}
+
+.pauth_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1.5rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: var(--light);
+}
+
+.pauth_credentials{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pauth_imgbox{
+    margin-top: 0.5rem;
+}
+
+.switch_text{
+    text-align: end;
+    font-size: 0.75rem;
+}
+
+.switch_text > span{
+    cursor: pointer;
+    color: var(--blue);
+}
+
+.pauth_imgbox{
+    width: 45%;
+}
+
+/* Utility */
+
+.auth_submitbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pauth_model .auth_submit{
+    width: 100%;
+}
+
+.pauth_model .auth_submitbox > span{
+    display: none;
+}
+
+
+.auth_submit{
+    width: 40%;
+    border-radius: 1.25rem;
+    color: var(--light);
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.auth_submitbox > span{
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--grey);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.other_authbox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.other_authbtn{
+    border: 1px solid var(--slate-2);
+    background-color: var(--light);
+}
+
+@media only screen and (min-width: 475px){
+
+}
+
+@media only screen and (min-width: 640px){
+    .mauth_model{
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 1024px){
+    .popup{
+        align-items: center;
+    }
+    .mauth_model{
+        display: none;
+    }
+    .pauth_model{
+        display: flex;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px){
+
+}
+
+@media only screen and (min-width: 1440px){
+
+}
+
+@media only screen and (min-width: 1536px){
+    
+}

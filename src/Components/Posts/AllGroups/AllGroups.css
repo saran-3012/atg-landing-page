@@ -1,0 +1,12 @@
+.allgroups{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.more_groups{
+    cursor: pointer;
+    margin-top: 2rem;
+    color: var(--blue);
+    text-align: right;
+}
